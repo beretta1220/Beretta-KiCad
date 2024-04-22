@@ -2,11 +2,11 @@
   "appearance": {
     "color_theme": "_builtin_default"
   },
-  "bitmap_file_name": "C:\\Users\\lucab\\Downloads\\ARC White (1).png",
+  "bitmap_file_name": "C:\\Users\\lucab\\Downloads\\NDSGC_no_background-1.png",
   "color_picker": {
     "default_tab": 0
   },
-  "converted_file_name": "C:\\Users\\lucab\\OneDrive\\Documents\\KiCad\\7.0\\footprints\\Graphics.pretty\\ARC_logo_black_15mm.kicad_mod",
+  "converted_file_name": "C:\\Users\\lucab\\OneDrive\\Documents\\KiCad\\8.0\\footprints\\Graphics.pretty\\Perception.kicad_mod",
   "cross_probing": {
     "auto_highlight": true,
     "center_on_items": true,
@@ -49,6 +49,10 @@
   },
   "system": {
     "file_history": [
+      "C:\\Users\\lucab\\Downloads\\NDSGC_no_background-1.png",
+      "C:\\Users\\lucab\\Downloads\\Screenshot 2024-04-21 183350.png",
+      "C:\\Users\\lucab\\Downloads\\Screenshot 2024-04-21 182927.png",
+      "C:\\Users\\lucab\\Downloads\\Screenshot 2024-04-21 at 18-21-38 Perception.pdf.png",
       "C:\\Users\\lucab\\Downloads\\ARC White (1).png"
     ],
     "first_run_shown": false,
@@ -58,7 +62,7 @@
     "units": 1
   },
   "threshold": 50,
-  "units": 0,
+  "units": 1,
   "window": {
     "cursor": {
       "always_show_cursor": true,

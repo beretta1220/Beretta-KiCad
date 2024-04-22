@@ -97,6 +97,367 @@
             "repository_name": "KiCad official repository"
         },
         {
+            "current_version": "2.10",
+            "install_timestamp": 1713740483,
+            "package": {
+                "author": {
+                    "contact": {
+                        "discord": "30350n",
+                        "github": "https://github.com/30350n",
+                        "web": "https://30350n.de/"
+                    },
+                    "name": "Bobbe"
+                },
+                "description": "Export PCB 3D Models from Pcbnew to Blender",
+                "description_full": "The pcb2blender workflow lets you create professionally looking product renders of all your KiCad projects in minutes! Simply export your board as a .pcb3d file in KiCad, import it into Blender and start creating!\n(Note for Linux/macOS users: If you run into any issues, make sure you're running python 3.10).\nIf you want to support this project, you can do so at https://github.com/sponsors/30350n",
+                "identifier": "com.github.30350n.pcb2blender",
+                "license": "GPL-3.0",
+                "maintainer": {
+                    "contact": {
+                        "discord": "30350n",
+                        "github": "https://github.com/30350n",
+                        "web": "https://30350n.de/"
+                    },
+                    "name": "Bobbe"
+                },
+                "name": "pcb2blender",
+                "resources": {
+                    "homepage": "https://github.com/30350n/pcb2blender"
+                },
+                "type": "plugin",
+                "versions": [
+                    {
+                        "download_sha256": "04de7595987df8e08a967e595effc8f912511023074f5df493937c58aac4d862",
+                        "download_size": 16389,
+                        "download_url": "https://github.com/30350n/pcb2blender/releases/download/v2.10-k8.0-b4.1/pcb2blender_exporter_2-10.zip",
+                        "install_size": 28145,
+                        "kicad_version": "8.0",
+                        "status": "stable",
+                        "version": "2.10"
+                    },
+                    {
+                        "download_sha256": "58bd89250c49b3d95c112a68de14a773bfc9148ce72af72f5fe47757009e0d78",
+                        "download_size": 16387,
+                        "download_url": "https://github.com/30350n/pcb2blender/releases/download/v2.9-k7.0-b4.0/pcb2blender_exporter_2-9.zip",
+                        "install_size": 28143,
+                        "kicad_version": "7.0",
+                        "status": "stable",
+                        "version": "2.9"
+                    },
+                    {
+                        "download_sha256": "e00c98bd55d18aade003dd9405a1b75291866867cdb9b71854e49e696c3c8989",
+                        "download_size": 16311,
+                        "download_url": "https://github.com/30350n/pcb2blender/releases/download/v2.8-k7.0-b4.0/pcb2blender_exporter_2-8.zip",
+                        "install_size": 27910,
+                        "kicad_version": "7.0",
+                        "status": "stable",
+                        "version": "2.8"
+                    },
+                    {
+                        "download_sha256": "c4d8cd3528d5c38b5c071d4a3a8961e9d4aa09757173f7d9825995eefe46c453",
+                        "download_size": 16246,
+                        "download_url": "https://github.com/30350n/pcb2blender/releases/download/v2.7-k7.0-b3.6/pcb2blender_exporter_2-7.zip",
+                        "install_size": 27668,
+                        "kicad_version": "7.0",
+                        "status": "stable",
+                        "version": "2.7"
+                    },
+                    {
+                        "download_sha256": "66186c4ee0970b991e52bd1cd6e98f1122a9e21b71aa72c0dac0201c78248ffe",
+                        "download_size": 15416,
+                        "download_url": "https://github.com/30350n/pcb2blender/releases/download/v2.2-k7.0-b3.4/pcb2blender_exporter_2-2.zip",
+                        "install_size": 24763,
+                        "kicad_version": "7.0",
+                        "status": "stable",
+                        "version": "2.2"
+                    },
+                    {
+                        "download_sha256": "70a0c924c2362e33d72fc6094d06946faa0b9999af11525c40c39f83c774d635",
+                        "download_size": 15429,
+                        "download_url": "https://github.com/30350n/pcb2blender/releases/download/v2.1-k6.0-b3.4/pcb2blender_exporter_2-1.zip",
+                        "install_size": 24746,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "2.1"
+                    },
+                    {
+                        "download_sha256": "bdfb39c54ec056b3215d103d883d1d4590d96e0c8f7a841b2e9c25dc650cca02",
+                        "download_size": 15381,
+                        "download_url": "https://github.com/30350n/pcb2blender/releases/download/v2.0-k6.0-b3.3/pcb2blender_exporter_2-0.zip",
+                        "install_size": 24579,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "2.0"
+                    },
+                    {
+                        "download_sha256": "50107e70d2e72f6d4d079e87ea7f78e7566dfb0e58caacbe432fa5d5f8b3ad6e",
+                        "download_size": 15081,
+                        "download_url": "https://github.com/30350n/pcb2blender/releases/download/v1.7-k6.0-b3.2/pcb2blender_exporter_1-7.zip",
+                        "install_size": 23498,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "1.7"
+                    },
+                    {
+                        "download_sha256": "cb42107d3405fecfd50b85764ec3e6d12f95865a4ddb755149678b19f2e856e5",
+                        "download_size": 15008,
+                        "download_url": "https://github.com/30350n/pcb2blender/releases/download/v1.4-k6.0-b3.2/pcb2blender_exporter_1-4.zip",
+                        "install_size": 23377,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "1.4"
+                    },
+                    {
+                        "download_sha256": "067212710f51462a9c5a5696dc0bf59b7cbb68f58f03b0beca3488e58a021c13",
+                        "download_size": 14920,
+                        "download_url": "https://github.com/30350n/pcb2blender/releases/download/v1.3-k6.0-b3.2/pcb2blender_exporter_1-3.zip",
+                        "install_size": 23162,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "1.3"
+                    },
+                    {
+                        "download_sha256": "a8928d52b0f80f9ad147762c5febfe156358fd27f3b1760e96d3303b65c515fc",
+                        "download_size": 14921,
+                        "download_url": "https://github.com/30350n/pcb2blender/releases/download/v1.2-k6.0-b3.1/pcb2blender_exporter_1-2.zip",
+                        "install_size": 23161,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "1.2"
+                    },
+                    {
+                        "download_sha256": "68430a1d9f23ee62f512efa51881ce3260467926e54d536c351791367603ad51",
+                        "download_size": 14933,
+                        "download_url": "https://github.com/30350n/pcb2blender/releases/download/v1.1-k6.0-b3.1/pcb2blender_exporter_1-1.zip",
+                        "install_size": 23204,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "1.1"
+                    },
+                    {
+                        "download_sha256": "9673e2d3ed9e4e02490c4dbe9dc792dc921b92933d48fcd7227acf7af1826013",
+                        "download_size": 14917,
+                        "download_url": "https://github.com/30350n/pcb2blender/releases/download/v1.0-k6.0-b3.1/pcb2blender_exporter_1-0.zip",
+                        "install_size": 23173,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "1.0"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
+            "current_version": "3.0.0",
+            "install_timestamp": 1713671044,
+            "package": {
+                "author": {
+                    "contact": {
+                        "github": "https://github.com/MitjaNemec"
+                    },
+                    "name": "Mitja Nemec"
+                },
+                "description": "Arrange footprints on a line, circle or grid.",
+                "description_full": "Arrange sequentially numbered footprints or footprints from multiple hierarchical sheets in linear, circular or matrix arrangement. This plugin works on footprints already present in the layout, so that layout and schematics stay in sync.\nThe placement of footprints from multiple hierarchical sheets works well together with ReplicateLayout plugin",
+                "identifier": "com.github.MitjaNemec.PlaceFootprints",
+                "license": "GPL-2.0",
+                "name": "Place Footprints",
+                "resources": {
+                    "homepage": "https://github.com/MitjaNemec/PlaceFootprints"
+                },
+                "tags": [
+                    "pcbnew",
+                    "footprints",
+                    "arrange"
+                ],
+                "type": "plugin",
+                "versions": [
+                    {
+                        "download_sha256": "3a9a1a22369b68c83a585f096de74f5b42176fa91cbb6b7756b060d10d6ec60e",
+                        "download_size": 23871,
+                        "download_url": "https://github.com/MitjaNemec/PlaceFootprints/releases/download/3.0.0/PlaceFootprints-3.0.0-pcm.zip",
+                        "install_size": 93545,
+                        "kicad_version": "7.99",
+                        "kicad_version_max": "8.1",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "stable",
+                        "version": "3.0.0"
+                    },
+                    {
+                        "download_sha256": "b7c63488bf8f670b3d0a1da32f7a88443ede6c83be6111a1f0d4392e2f2f32f2",
+                        "download_size": 23999,
+                        "download_url": "https://github.com/MitjaNemec/PlaceFootprints/releases/download/2.1.3/PlaceFootprints-2.1.3-pcm.zip",
+                        "install_size": 93076,
+                        "kicad_version": "7.0",
+                        "kicad_version_max": "7.1",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "stable",
+                        "version": "2.1.3"
+                    },
+                    {
+                        "download_sha256": "a6a838d34fbe07fba0909c22d0bfeed27c5430250dc837f1348c0578237031a8",
+                        "download_size": 22668,
+                        "download_url": "https://github.com/MitjaNemec/PlaceFootprints/releases/download/1.2.12/PlaceFootprints-1.2.12-pcm.zip",
+                        "install_size": 78947,
+                        "kicad_version": "6.0",
+                        "kicad_version_max": "6.1",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "stable",
+                        "version": "1.2.12"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
+            "current_version": "2024.02.24",
+            "install_timestamp": 1713740483,
+            "package": {
+                "author": {
+                    "contact": {
+                        "github": "https://github.com/Steffen-W"
+                    },
+                    "name": "Steffen Wittemeier"
+                },
+                "description": "Import library files from Octopart, Samacsys, Ultralibrarian and Snapeda",
+                "description_full": "Import library files from Octopart, Samacsys, Ultralibrarian and Snapeda.\n For usage and correct setup please read the Readme: \n https://github.com/Steffen-W/Import-LIB-KiCad-Plugin#use-of-the-application",
+                "identifier": "com.github.Steffen-W.impartGUI",
+                "license": "GPL-3.0",
+                "maintainer": {
+                    "contact": {
+                        "github": "https://github.com/Steffen-W"
+                    },
+                    "name": "Steffen Wittemeier"
+                },
+                "name": "impart GUI for KiCad",
+                "resources": {
+                    "homepage": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin"
+                },
+                "tags": [
+                    "import",
+                    "library",
+                    "octopart",
+                    "samacsys",
+                    "ultralibrarian",
+                    "snapeda"
+                ],
+                "type": "plugin",
+                "versions": [
+                    {
+                        "download_sha256": "747bfdbfc34edc160cbf6f77462c16aa5064c68c1adc076930a1a1c7fef0f695",
+                        "download_size": 27824,
+                        "download_url": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin/releases/download/2024.02.24/Import-LIB-KiCad-Plugin.zip",
+                        "install_size": 71950,
+                        "kicad_version": "6.00",
+                        "status": "stable",
+                        "version": "2024.02.24"
+                    },
+                    {
+                        "download_sha256": "2d12590b3e6a0d6e0ff0332b62edc5de5d8abf1af91d6b0d39de841d7d2c55c4",
+                        "download_size": 27761,
+                        "download_url": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin/releases/download/2023.10.20/Import-LIB-KiCad-Plugin.zip",
+                        "install_size": 71362,
+                        "kicad_version": "6.00",
+                        "status": "stable",
+                        "version": "2023.10.20"
+                    },
+                    {
+                        "download_sha256": "9850811d03e4c2bb3e84ec4f15dd31238600aa0b1481a8c4978319761da27e78",
+                        "download_size": 24870,
+                        "download_url": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin/releases/download/v0.3.0/Import-LIB-KiCad-Plugin.zip",
+                        "install_size": 57178,
+                        "kicad_version": "6.00",
+                        "status": "stable",
+                        "version": "0.3.0"
+                    },
+                    {
+                        "download_sha256": "9385284e93d21bdd9ed6e73f1afced97f688e6e9d22e40fe3776cb2b83ef201f",
+                        "download_size": 22407,
+                        "download_url": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin/releases/download/v0.2.0/Import-LIB-KiCad-Plugin.zip",
+                        "install_size": 52605,
+                        "kicad_version": "6.00",
+                        "status": "stable",
+                        "version": "0.2.0"
+                    },
+                    {
+                        "download_sha256": "bc042534930b3e117a4f25544c7d4cde3441004b763a0635412207906829b88f",
+                        "download_size": 25053,
+                        "download_url": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin/releases/download/v0.1.1/Import-LIB-KiCad-Plugin.zip",
+                        "install_size": 97762,
+                        "kicad_version": "6.00",
+                        "status": "stable",
+                        "version": "0.1.1"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
+            "current_version": "4.3.0",
+            "install_timestamp": 1713671045,
+            "package": {
+                "author": {
+                    "contact": {
+                        "github": "https://github.com/bennymeg"
+                    },
+                    "name": "Benny Megidish"
+                },
+                "description": "JLC PCB fabrication toolkit\nAutomate PCB fabrication process in conjunction with JLC PCB",
+                "description_full": "Toolkit for automating PCB fabrication process with KiCad and JLC PCB. \n\n OPTIONS: \n• Include Component Part Number in Production Files \n Add an 'MPN' field with the LCSC component part number to the footprint component options.  \n\n• Ignore Footprint in Production Files \n Select 'Exclude from position files' or 'Exclude from BOM' in the footprint properties fabrication attributes in order to ignore the footprint from the relevant file.",
+                "identifier": "com.github.bennymeg.JLC-Plugin-for-KiCad",
+                "license": "Apache-2.0",
+                "maintainer": {
+                    "contact": {
+                        "github": "https://github.com/bennymeg"
+                    },
+                    "name": "Benny Megidish"
+                },
+                "name": "Fabrication Toolkit",
+                "resources": {
+                    "homepage": "https://github.com/bennymeg/JLC-Plugin-for-KiCad"
+                },
+                "tags": [
+                    "jlc",
+                    "production",
+                    "fabrication",
+                    "toolkit"
+                ],
+                "type": "plugin",
+                "versions": [
+                    {
+                        "download_sha256": "c3c5bbdc1821fc9759c0168d6a6923c1bfbfc938ef5a8bf3ba70a54c40f0033d",
+                        "download_size": 17447,
+                        "download_url": "https://github.com/bennymeg/JLC-Plugin-for-KiCad/releases/download/4.3.0/JLC-Plugin-for-KiCad-4.3.0.zip",
+                        "install_size": 42110,
+                        "kicad_version": "6.00",
+                        "status": "stable",
+                        "version": "4.3.0"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
             "current_version": "1.5",
             "install_timestamp": 1709391968,
             "package": {
@@ -420,6 +781,66 @@
                         ],
                         "status": "stable",
                         "version": "1.2"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
+            "current_version": "4.1",
+            "install_timestamp": 1713740482,
+            "package": {
+                "author": {
+                    "contact": {
+                        "email": "kicad-support@protoexpress.com"
+                    },
+                    "name": "Sierra Circuits"
+                },
+                "description": "Get an instant quote and order without leaving KiCad.",
+                "description_full": "Our plugin saves you time since you no longer need to output the data to send it to the PCB house. This also spares you from the errors that come with this step. Because, trust us, as a manufacturer, we see designers sending the wrong data every day, causing delays and money.\n So here's how it works: once you have completed the layout, all you need to do is go to Tools and External Plugins, and select Sierra Circuits Quote.\n A window will pop-up and show the specifications. Our plugin reads the design for a smooth quote process. Most of the board information will be automatically filled out, such as the dimensions and layer number. It is then up to you to choose the thickness, surface finish, etc. \n Review the parameters, pick the quantity and turn time, get assembly if needed, and place your order.This is as simple as it sounds!",
+                "identifier": "sierra.kicad.order",
+                "license": "GPL-3.0",
+                "maintainer": {
+                    "contact": {
+                        "email": "kicad-support@protoexpress.com"
+                    },
+                    "name": "Sierra Support"
+                },
+                "name": "Sierra Quote Plugin",
+                "resources": {
+                    "homepage": "https://www.protoexpress.com/kicad-quote-plugin/"
+                },
+                "type": "plugin",
+                "versions": [
+                    {
+                        "download_sha256": "9f28ea1a1a4f1414e51ac92445e9fd657f23781187f1aa69c68eff167a59aea6",
+                        "download_size": 212872,
+                        "download_url": "https://kicad-plugin-build-download-link.s3.amazonaws.com/sierra.kicad.order.v4.1.zip",
+                        "install_size": 2050175,
+                        "kicad_version": "6.0.0",
+                        "platforms": [
+                            "macos",
+                            "windows",
+                            "linux"
+                        ],
+                        "status": "stable",
+                        "version": "4.1"
+                    },
+                    {
+                        "download_sha256": "8a9e6e4e3b8a9915380d41b266f8a759319ecdb0c77ae93736306872c1ab12eb",
+                        "download_size": 212742,
+                        "download_url": "https://kicad-plugin-build-download-link.s3.amazonaws.com/sierra.kicad.order.v4.0.zip",
+                        "install_size": 2048570,
+                        "kicad_version": "6.0.0",
+                        "platforms": [
+                            "macos",
+                            "windows",
+                            "linux"
+                        ],
+                        "status": "stable",
+                        "version": "4.0"
                     }
                 ]
             },

@@ -7,14 +7,14 @@
     "appearance_expand_layer_display": false,
     "appearance_expand_net_display": false,
     "appearance_panel_tab": 0,
-    "properties_panel_width": 20,
+    "properties_panel_width": 300,
     "properties_splitter_proportion": 0.5,
     "right_panel_width": 180,
     "search_panel_dock_direction": 3,
     "search_panel_height": 35,
     "search_panel_width": 142,
     "show_layer_manager": true,
-    "show_properties": false,
+    "show_properties": true,
     "show_search": false
   },
   "cleanup": {
@@ -114,7 +114,7 @@
     "filter_on_pin_count": false,
     "height": 595,
     "sash_h": 673,
-    "sash_v": 189,
+    "sash_v": 356,
     "sort_mode": 0,
     "use_fp_filters": false,
     "width": 1143
@@ -267,8 +267,8 @@
     "maximized": false,
     "mru_path": "C:\\Users\\lucab\\OneDrive\\Documents\\KiCad\\8.0\\projects",
     "perspective": "layout2|",
-    "pos_x": 33,
-    "pos_y": 305,
+    "pos_x": 234,
+    "pos_y": 234,
     "size_x": 1143,
     "size_y": 595,
     "zoom": 7.827653969002862,
@@ -460,7 +460,7 @@
   },
   "lib_tree": {
     "column_widths": {
-      "Description": 364,
+      "Description": 472,
       "Item": 300
     },
     "columns": [
@@ -468,7 +468,9 @@
       "Description"
     ],
     "open_libs": [
-      "CustomFootprintLib"
+      "CustomFootprintLib",
+      "Connector",
+      "TestPoint"
     ]
   },
   "meta": {
@@ -586,6 +588,7 @@
   },
   "system": {
     "file_history": [
+      "C:\\Users\\lucab\\Downloads\\eagle_files-BabyBuck5V\\SparkFun_Buck_Regulator_AP63357DV-7_BabyBuck5V_2\\SparkFun_Buck_Regulator_AP63357DV-7_BabyBuck5V.kicad_pcb",
       "C:\\Users\\lucab\\OneDrive\\Documents\\GitHub\\IREC-ARC-2024\\payload\\pcb\\IREC_HeatTransfer_Payload\\IREC_HeatTransfer_Payload.kicad_pcb",
       "C:/Users/lucab/OneDrive/Documents/KiCad/Projects/old/SAIL_1_2_2/SAIL_1_2_2.kicad_pcb",
       "C:/Users/lucab/OneDrive/Documents/KiCad/Projects/SAIL_1_2_2/SAIL_1_2_2.kicad_pcb",
@@ -593,8 +596,7 @@
       "C:/Users/lucab/OneDrive/Documents/KiCad/Projects/Blop/Blop V1_5.kicad_pcb",
       "C:/Users/lucab/OneDrive/Documents/KiCad/Projects/SAIL_1_2_1_ordered/SAIL_1_2_1.kicad_pcb",
       "C:\\Users\\lucab\\OneDrive\\Documents\\KiCad\\Projects\\SAIL_1_3_Feather\\SAIL_1_3_Feather.kicad_pcb",
-      "C:\\Users\\lucab\\OneDrive\\Documents\\KiCad\\Projects\\SAIL_1_2_1\\SAIL_1_2_1.kicad_pcb",
-      "C:\\Users\\lucab\\OneDrive\\Documents\\KiCad\\Projects\\SAIL_Prototype\\SAIL_Prototype.kicad_pcb"
+      "C:\\Users\\lucab\\OneDrive\\Documents\\KiCad\\Projects\\SAIL_1_2_1\\SAIL_1_2_1.kicad_pcb"
     ],
     "first_run_shown": false,
     "last_footprint3d_dir": "C:\\Users\\lucab\\OneDrive\\Documents\\KiCad\\8.0\\3dmodels",
@@ -639,7 +641,7 @@
       "always_show_cursor": true,
       "fullscreen_cursor": false
     },
-    "display": 0,
+    "display": 1,
     "footprint_text_shown_columns": "0 1 2 3 4 5 6",
     "grid": {
       "axes_enabled": false,
@@ -784,11 +786,11 @@
     },
     "maximized": true,
     "mru_path": "",
-    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1016;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=AuxToolbar;caption=;state=139644;dir=1;layer=5;row=0;pos=0;prop=100000;bestw=955;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=384;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=664;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=672;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Appearance;state=1532;dir=2;layer=4;row=0;pos=0;prop=100000;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SelectionFilter;caption=Selection Filter;state=1532;dir=2;layer=4;row=0;pos=1;prop=0;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=PropertiesManager;caption=Properties;state=1534;dir=4;layer=5;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=384;besth=158;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Search;caption=Search;state=2098686;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=100;minw=180;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=480;floath=200|dock_size(1,6,0)=34|dock_size(1,5,0)=34|dock_size(3,6,0)=30|dock_size(4,3,0)=34|dock_size(2,3,0)=34|dock_size(2,4,0)=180|dock_size(5,0,0)=386|",
-    "pos_x": -8,
+    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1016;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=AuxToolbar;caption=;state=139644;dir=1;layer=5;row=0;pos=0;prop=100000;bestw=852;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=384;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=664;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=672;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Appearance;state=1532;dir=2;layer=4;row=0;pos=0;prop=100000;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SelectionFilter;caption=Selection Filter;state=1532;dir=2;layer=4;row=0;pos=1;prop=0;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=PropertiesManager;caption=Properties;state=1532;dir=4;layer=5;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=384;besth=158;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Search;caption=Search;state=2098686;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=100;minw=180;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=480;floath=200|dock_size(1,6,0)=34|dock_size(1,5,0)=34|dock_size(3,6,0)=30|dock_size(4,3,0)=34|dock_size(2,3,0)=34|dock_size(2,4,0)=180|dock_size(4,5,0)=300|dock_size(5,0,0)=386|",
+    "pos_x": -1928,
     "pos_y": -8,
-    "size_x": 2576,
-    "size_y": 1416,
+    "size_x": 1936,
+    "size_y": 1056,
     "zoom_factors": [
       0.13,
       0.22,
